@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-let Schema = mongoose.Schema
+const Schema = mongoose.Schema
 
 const AuthorSchema = new Schema({
   first_name: { type: String, required: true, maxlength: 100 },
