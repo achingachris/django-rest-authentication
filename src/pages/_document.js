@@ -20,7 +20,7 @@ export default function Document() {
         {/* Core theme CSS (includes Bootstrap)*/}
         <link href='css/styles.css' rel='stylesheet' />
       </Head>
-      <body>
+      <body id="page-top">
         <Main />
         <NextScript />
 
