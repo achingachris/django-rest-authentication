@@ -84,50 +84,7 @@ const Home = () => {
                 </svg>
               </div>
             </header>
-            <section className='bg-white py-10' id='get-started'>
-              <div className='container px-5'>
-                <div className='row gx-5 text-center'>
-                  <div className='col-lg-4 mb-5 mb-lg-0'>
-                    <div className='icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4'>
-                      <i data-feather='droplet' />
-                    </div>
-                    <h2>Understanding mental health</h2>
-                    <p className='mb-0'>
-                      Mental health conditions during adolescenes and young
-                      adulhood can have a significantky negative impact on the
-                      development of safe healthy relationship with peers,
-                      parents, teachers, and ROmantic partners. This is the
-                      reason iTana belives in having these conversations with
-                      this age group as this is an important stage of their life
-                    </p>
-                  </div>
-                  <div className='col-lg-4 mb-5 mb-lg-0'>
-                    <div className='icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4'>
-                      <i data-feather='code' />
-                    </div>
-                    <h2>Develop</h2>
-                    <p className='mb-0'>
-                      Our award winning development team creates personalized
-                      digital experiences
-                    </p>
-                  </div>
-                  <div className='col-lg-4 mb-5 mb-lg-0'>
-                    <div className='icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4'>
-                      <i data-feather='droplet' />
-                    </div>
-                    <h2>Understanding mental health</h2>
-                    <p className='mb-0'>
-                      Mental health conditions during adolescenes and young
-                      adulhood can have a significantky negative impact on the
-                      development of safe healthy relationship with peers,
-                      parents, teachers, and ROmantic partners. This is the
-                      reason iTana belives in having these conversations with
-                      this age group as this is an important stage of their life
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </section>
+           
             <section
               className='bg-img-cover overlay overlay-80 py-10'
               style={{ backgroundImage: 'url("/assets/img/iTana/num22.jpg")' }}
