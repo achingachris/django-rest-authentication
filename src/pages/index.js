@@ -4,6 +4,7 @@ import Programs from '@/components/Programs'
 import Projects from '@/components/Projects'
 import About from '@/components/About'
 import ProjectsModal from '@/components/ProjectsModal'
+import Contact from '@/components/Contact'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Programs />
       <Projects />
       <About />
+      <Contact />
       <ProjectsModal />
     </>
   )
