@@ -13,10 +13,10 @@ const Home = () => {
         <title>iTana</title>
       </Head>
       <Header />
-      <Programs />
-      <Projects />
       <About />
-      <Contact />
+      {/* <Programs /> */}
+      {/* <Projects /> */}
+      {/* <Contact /> */}
       <ProjectsModal />
     </>
   )

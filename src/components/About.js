@@ -7,9 +7,7 @@ const About = () => {
       <div class='container'>
         <div class='text-center'>
           <h2 class='section-heading text-uppercase'>About</h2>
-          <h3 class='section-subheading text-muted'>
-            Lorem ipsum dolor sit amet consectetur.
-          </h3>
+          <h3 class='section-subheading text-muted'>About Our Organization</h3>
         </div>
         <ul class='timeline'>
           <li>
@@ -22,15 +20,13 @@ const About = () => {
             </div>
             <div class='timeline-panel'>
               <div class='timeline-heading'>
-                <h4>2009-2011</h4>
-                <h4 class='subheading'>Our Humble Beginnings</h4>
+                <h4>Welcome</h4>
+                <h4 class='subheading'>To iTana</h4>
               </div>
               <div class='timeline-body'>
                 <p class='text-muted'>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                  dolore laudantium consectetur!
+                  We use film, podcasts, community dialogues, outreaches, and
+                  social hangouts to create awareness and promote mental health.
                 </p>
               </div>
             </div>
@@ -45,15 +41,14 @@ const About = () => {
             </div>
             <div class='timeline-panel'>
               <div class='timeline-heading'>
-                <h4>March 2011</h4>
-                <h4 class='subheading'>An Agency is Born</h4>
+                <h4>iTana:</h4>
+                <h4 class='subheading'>Our Mission</h4>
               </div>
               <div class='timeline-body'>
                 <p class='text-muted'>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                  dolore laudantium consectetur!
+                  Make mental health support accessible and approachable for all
+                  youth ages 10 to 25, regardless of their background or
+                  circumstances.
                 </p>
               </div>
             </div>
@@ -68,15 +63,14 @@ const About = () => {
             </div>
             <div class='timeline-panel'>
               <div class='timeline-heading'>
-                <h4>December 2015</h4>
-                <h4 class='subheading'>Transition to Full Service</h4>
+                <h4>iTana</h4>
+                <h4 class='subheading'>Our Approach</h4>
               </div>
               <div class='timeline-body'>
                 <p class='text-muted'>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                  dolore laudantium consectetur!
+                  iTana believes in using mediums that are easy to access and
+                  appreciated by the youth, and how it offers integrated
+                  services that cater to the unique needs of each individual.
                 </p>
               </div>
             </div>
@@ -91,15 +85,13 @@ const About = () => {
             </div>
             <div class='timeline-panel'>
               <div class='timeline-heading'>
-                <h4>July 2020</h4>
-                <h4 class='subheading'>Phase Two Expansion</h4>
+                <h4>iTana</h4>
+                <h4 class='subheading'>Join Us</h4>
               </div>
               <div class='timeline-body'>
                 <p class='text-muted'>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                  dolore laudantium consectetur!
+                  explore the different programs and initiatives offered by
+                  iTana, and find the ones that best suits your needs
                 </p>
               </div>
             </div>
