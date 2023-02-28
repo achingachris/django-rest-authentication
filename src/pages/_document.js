@@ -7,41 +7,39 @@ export default function Document() {
   return (
     <Html lang='en'>
       <Head>
-        <link href='/css/styles.css' rel='stylesheet' />
+        <script
+          src='https://use.fontawesome.com/releases/v6.1.0/js/all.js'
+          crossorigin='anonymous'
+        ></script>
+        {/* <!-- Google fonts--> */}
         <link
+          href='https://fonts.googleapis.com/css?family=Montserrat:400,700'
           rel='stylesheet'
-          href='https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.0/lity.min.css'
+          type='text/css'
         />
-        <link rel='stylesheet' href='https://unpkg.com/aos@next/dist/aos.css' />
-        <link rel='icon' type='image/x-icon' href='/assets/img/favicon.png' />
-        <script
-          data-search-pseudo-elements
-          defer
-          src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js'
-          crossorigin='anonymous'
-        ></script>
-        <script
-          async
-          src='https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js'
-          crossorigin='anonymous'
-        ></script>
+        <link
+          href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700'
+          rel='stylesheet'
+          type='text/css'
+        />
+        {/* <!-- Core theme CSS (includes Bootstrap)--> */}
+        <link href='/css/styles.css' rel='stylesheet' />
       </Head>
       <body id='page-top'>
         <Main />
         <NextScript />
+        {/* <!-- Bootstrap core JS--> */}
         <script
           async
-          src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js'
-          crossorigin='anonymous'
+          src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js'
         ></script>
+        {/* <!-- Core theme JS--> */}
         <script async src='/js/scripts.js'></script>
-        <script
-          async
-          src='https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.0/lity.min.js'
-        ></script>
-        {/* <script async src='https://unpkg.com/aos@next/dist/aos.js'></script> */}
-        {/* <script async src='/js/aos.js'></script> */}
-        
+        {/* <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *--> */}
+        <script src='https://cdn.startbootstrap.com/sb-forms-latest.js'></script>
       </body>
     </Html>
   )

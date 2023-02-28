@@ -1,17 +1,15 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link'
 
 const Nav = () => {
   return (
-    <nav
-      className='navbar navbar-expand-lg navbar-light fixed-top'
-      id='mainNav'
-    >
-      <div className='container px-4 px-lg-5'>
-        <Link href='/' legacyBehavior>
-          <a className='navbar-brand'>iTana</a>
-        </Link>
+    <nav className='navbar navbar-expand-lg navbar-dark fixed-top' id='mainNav'>
+      <div className='container'>
+        <a className='navbar-brand' href='#page-top'>
+          <img src='assets/img/navbar-logo.svg' alt='...' />
+        </a>
         <button
-          className='navbar-toggler navbar-toggler-right'
+          className='navbar-toggler'
           type='button'
           data-bs-toggle='collapse'
           data-bs-target='#navbarResponsive'
@@ -20,19 +18,34 @@ const Nav = () => {
           aria-label='Toggle navigation'
         >
           Menu
-          <i className='fas fa-bars' />
+          <i className='fas fa-bars ms-1' />
         </button>
         <div className='collapse navbar-collapse' id='navbarResponsive'>
-          <ul className='navbar-nav ms-auto'>
+          <ul className='navbar-nav text-uppercase ms-auto py-4 py-lg-0'>
             <li className='nav-item'>
-              <Link href='/about' legacyBehavior>
-                <a className='nav-link'>About</a>
-              </Link>
+              <a className='nav-link' href='#services'>
+                Services
+              </a>
             </li>
             <li className='nav-item'>
-              <Link href='/activities' legacyBehavior>
-                <a className='nav-link'>Activities</a>
-              </Link>
+              <a className='nav-link' href='#portfolio'>
+                Portfolio
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a className='nav-link' href='#about'>
+                About
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a className='nav-link' href='#team'>
+                Team
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a className='nav-link' href='#contact'>
+                Contact
+              </a>
             </li>
           </ul>
         </div>
