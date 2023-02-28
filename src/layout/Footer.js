@@ -5,9 +5,7 @@ const Footer = () => {
     <footer className='footer py-4'>
       <div className='container'>
         <div className='row align-items-center'>
-          <div className='col-lg-4 text-lg-start'>
-            Copyright © Your Website 2022
-          </div>
+          <div className='col-lg-4 text-lg-start'>Copyright © iTana {year}</div>
           <div className='col-lg-4 my-3 my-lg-0'>
             <a
               className='btn btn-dark btn-social mx-2'
