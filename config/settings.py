@@ -75,6 +75,14 @@ EMAIL_HOST_USER = "<your email user>"               # your email address
 EMAIL_HOST_PASSWORD = "<your email password>"       # your password
 DEFAULT_FROM_EMAIL = "<your default from email>"    # email ending with @sendinblue.com
 
+# <EMAIL_CONFIRM_REDIRECT_BASE_URL>/<key>
+EMAIL_CONFIRM_REDIRECT_BASE_URL = \
+    "http://localhost:3000/email/confirm/"
+
+# <PASSWORD_RESET_CONFIRM_REDIRECT_BASE_URL>/<uidb64>/<token>/
+PASSWORD_RESET_CONFIRM_REDIRECT_BASE_URL = \
+    "http://localhost:3000/password-reset/confirm/"
+
 ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
