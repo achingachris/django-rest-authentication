@@ -27,10 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
+    'django.contrib.sites',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     'authentication.apps.AuthenticationConfig',
     'rest_framework',
     'rest_framework.authtoken',
+    'allauth',
+    'allauth.account',
+    'dj_rest_auth',
+    'dj_rest_auth.registration',
 ]
 
 MIDDLEWARE = [
@@ -52,11 +56,24 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+SITE_ID = 1
+
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": [
         "rest_framework.authentication.TokenAuthentication",
     ]
 }
+
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_EMAIL_VERIFICATION = "mandatory"
+
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+EMAIL_HOST = "<your email host>"                    # smtp-relay.sendinblue.com
+EMAIL_USE_TLS = False                               # False
+EMAIL_PORT = "<your email port>"                    # 587
+EMAIL_HOST_USER = "<your email user>"               # your email address
+EMAIL_HOST_PASSWORD = "<your email password>"       # your password
+DEFAULT_FROM_EMAIL = "<your default from email>"    # email ending with @sendinblue.com
 
 ROOT_URLCONF = 'config.urls'
 
